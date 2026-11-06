@@ -1,5 +1,7 @@
 # BIGHUB
 
+> **Status: no longer operational.** BIGHUB relied on a hosted backend. That backend is no longer running and bighub.io is no longer hosted, so the Python SDK, the OpenAI adapter and the MCP server cannot get a decision back anymore. The code stays here as a record of the project and is not maintained.
+
 Better decisions for IT agent actions.
 
 BIGHUB turns proposed IT agent actions into better decisions before they run. It builds a **Decision Packet**, runs **DecisionBrain**, and surfaces an execution outcome: proceed when appropriate (**`can_run`**), pause for human **review**, ask for more **context**, or advise **not to run**—with an optional **`better_action`** before execution only when BIGHUB actually produced one.
